@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>#</title>
+    <link rel="stylesheet" href="/stylesheets/index.css">
+  </head>
+  <body>
+    <div class="parallax">
+      <h2>The Ultimate Babysitting App</h2>
+      <img src="/img/baby.png" alt="">
+    </div>
+   <!-- video background HTML/CSS found on https://slicejack.com/fullscreen-html5-video-background-css/ -->
+    <div class="fullscreen-bg">
+      <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+          <source src="img/raininglettersBW.mp4" type="video/mp4">
+      </video>
+    </div>
+
+      <nav class="nav">
+          <a class='nav-buttons left' href="/">Home </a>
+          <a class='nav-buttons left' href="/about">About </a>
+          <a class='nav-buttons right' href="/contact">Contact </a>
+          <a class='nav-buttons right' href="/images">Images </a>
+      </nav>
+
+    <%= yield %>
+    <script src="/js/index.js"></script>
+  </body>
+</html>
