@@ -92,3 +92,15 @@ a {
 }
 
 /*ABOUT PAGE CSS*/
+
+
+
+/* CONTACT PAGE CSS */
+
+.js-animate {
+  animation: do-stuff 200ms linear;
+}
+
+@keyframes do-stuff {
+  ⋮
+}

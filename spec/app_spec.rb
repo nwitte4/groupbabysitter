@@ -18,3 +18,5 @@ describe 'App' do
     expect(last_response.body).to include('Hello World')
   end
 end
+
+# add tests for contact page
